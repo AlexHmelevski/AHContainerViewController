@@ -1,0 +1,27 @@
+{
+  "name": "AHContainerViewController",
+  "version": "0.1.0",
+  "summary": "A short description of AHContainerViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlexHmelevskiAG/AHContainerViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlexHmelevskiAG": "alexei.hmelevski@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AlexHmelevskiAG/AHContainerViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AHContainerViewController/Classes/**/*",
+  "dependencies": {
+    "ALEither": [
+
+    ]
+  }
+}

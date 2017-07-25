@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import  AHContainerViewController
 
 class ViewController: UIViewController {
-
+    let container = ALViewControllerContainer(initialVC: UIViewController())
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(container.view)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
