@@ -285,8 +285,6 @@
 		A46A3DE3D87C104B1CB843017D6EE38D /* AHContainerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				892CBA6F1F1701FE00A70032 /* Utils */,
-				892CBA641F17010D00A70032 /* Transitioners */,
 				B4C304639E293373CB8F92C1E218701A /* AHContainerViewController */,
 				BFF9F7C933E540FCF1674B7543BADD18 /* Support Files */,
 			);
@@ -297,7 +295,6 @@
 		B4C304639E293373CB8F92C1E218701A /* AHContainerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				892CBA791F17045200A70032 /* Protocols */,
 				CBB7AEE4E18EB039D12023C82E2FDA86 /* Classes */,
 			);
 			path = AHContainerViewController;
@@ -331,6 +328,9 @@
 		CBB7AEE4E18EB039D12023C82E2FDA86 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				892CBA791F17045200A70032 /* Protocols */,
+				892CBA6F1F1701FE00A70032 /* Utils */,
+				892CBA641F17010D00A70032 /* Transitioners */,
 				94D301AE7A94919764CD9118F89CF5F0 /* AHContainerViewController.swift */,
 				BA2BB65A8C3B6694666DD264C0C78A15 /* AnimationFactory.swift */,
 				0B792D7D2E171871E860F3DA365B1312 /* DimmingViewModel.swift */,
