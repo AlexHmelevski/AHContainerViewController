@@ -193,13 +193,13 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
     //MARK: Private Methods
     
     private func removeOldFromStackIfNeed(oldvc: UIViewController, using newVC: UIViewController) {
-        if oldvc.view.frame.size.height <= newVC.view.frame.height || oldvc.view.frame.size.width <= newVC.view.frame.width {
+        if oldvc.view.frame.size.height <= newVC.view.frame.height && oldvc.view.frame.size.width <= newVC.view.frame.width {
             oldvc.view.removeFromSuperview()
         }
     }
     
     private func addToVCIntoStackIfNeed(toVC: UIViewController, using fromVC: UIViewController) {
-        if toVC.view.frame.size.height <= fromVC.view.frame.height || toVC.view.frame.size.width <= fromVC.view.frame.width {
+        if toVC.view.frame.size.height <= fromVC.view.frame.height && toVC.view.frame.size.width <= fromVC.view.frame.width {
             view.insertSubview(toVC.view, belowSubview: fromVC.view)
         }
     }

@@ -159,6 +159,17 @@ class ALViewControllerContainerTests: XCTestCase {
         
     }
     
+    func test_push_dont_removes_old_from_hierarchy_if_presented_frame_smaller() {
+        fulfill(exp: [exp], in: .seconds(6))
+        container.push(controller: vc1, with: defaultFactory.provider(for: .slideUp(size: SizeProportion(width: 0.5, height: 0.5)), dimmingViewType: .noDimming)) { (done) in
+            XCTAssertEqual(self.container.view.subviews.count, 2)
+            XCTAssertEqual(self.container.view.subviews.last, self.vc1.view)
+        }
+        
+        wait(for: [exp], timeout: 10)
+        
+    }
+    
     
     func test_pop_when_there_is_no_vc_in_stack() {
         fulfill(exp: [exp], in: .seconds(3))
@@ -204,6 +215,7 @@ class ALViewControllerContainerTests: XCTestCase {
                                                            viewDidAppear: 2,
                                                            viewWillDisappear: 1,
                                                            viewDidDisappear: 1)
+        
         let provider = self.defaultFactory.provider(for: .slideUp(size: SizeProportion(width: 0.4, height: 0.4)), dimmingViewType: .noDimming)
         fulfill(exp: [exp], in: .seconds(2))
         self.container.push(controller: self.vc1,
