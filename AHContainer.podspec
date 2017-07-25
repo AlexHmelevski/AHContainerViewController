@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AHContainerViewController'
+  s.name             = 'AHContainer'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of AHContainerViewController.'
+  s.summary          = 'A short description of AHContainer.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
