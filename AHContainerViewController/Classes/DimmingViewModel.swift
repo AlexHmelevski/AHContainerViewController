@@ -9,7 +9,7 @@ import Foundation
 
 public enum DimmingViewType {
     case defaultView
-    case defaultBlur
+    case defaultBlur(UIBlurEffectStyle)
     case noDimming
     
 }
@@ -25,7 +25,7 @@ protocol DimmingViewFactory {
 public class ALModalPresentationControllerDimmingViewFactory: DimmingViewFactory {
     func view(for type: DimmingViewType) -> DimmingViewModel? {
         switch type {
-            case .defaultBlur: return defaultBlur
+            case let .defaultBlur(style): return defaultBlur(with: style)
             case .defaultView: return defaultDimming
         default: return nil
         }
@@ -43,12 +43,12 @@ public class ALModalPresentationControllerDimmingViewFactory: DimmingViewFactory
         return DimmingViewModel(view: dimmingView, animation: animationBlock)
     }
     
-    private var defaultBlur: DimmingViewModel {
+    private func defaultBlur(with style: UIBlurEffectStyle) -> DimmingViewModel {
         let view = UIVisualEffectView()
         view.effect = nil
         
         let animationBlock: (CGFloat) -> (() -> Void) = { (alpha) in
-            return { view.effect = alpha <= 0 ? nil : UIBlurEffect(style: .light) }
+            return { view.effect = alpha <= 0 ? nil : UIBlurEffect(style: style) }
         }
         
         return  DimmingViewModel(view: view, animation: animationBlock)

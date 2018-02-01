@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = container
         window?.makeKeyAndVisible()
         
-        let proportion = SizeProportion(width:0.6, height: 1)
+        let proportion = SizeProportion(width:1, height: 0.8)
         
         var slidUpPopover = defaultProviderFactory.provider(for: .slideRight(size: proportion),
                                                             dimmingViewType: .defaultBlur)
