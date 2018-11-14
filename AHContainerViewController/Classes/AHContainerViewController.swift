@@ -56,7 +56,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
     public init(initialVC: UIViewController) {
         currentVC = initialVC
         super.init(nibName: nil, bundle: nil)
-        addChildViewController(initialVC)
+        addChild(initialVC)
         add(vc: initialVC)
     }
     
@@ -87,9 +87,9 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
         }
     }
     
-    open override var childViewControllerForStatusBarStyle: UIViewController? { return currentVC }
+    open override var childForStatusBarStyle: UIViewController? { return currentVC }
     
-    open override var childViewControllerForStatusBarHidden: UIViewController? { return currentVC }
+    open override var childForStatusBarHidden: UIViewController? { return currentVC }
     
     open override var supportedInterfaceOrientations: UIInterfaceOrientationMask { return currentVC.supportedInterfaceOrientations }
     
@@ -170,7 +170,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
         
         popedVC.last.do { (fromVC) in
             let vcHash = fromVC.hash
-            vc.willMove(toParentViewController: nil)
+            vc.willMove(toParent: nil)
             self.addToVCIntoStackIfNeed(toVC: toVC, using: fromVC)
             self.startStackRoutine(for: toVC, from: fromVC)
             self.doAnimation(for: toVC, from: fromVC, with: {
@@ -275,8 +275,8 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
         
         let anim = provider.animationProvider.transitionBlock(for: context(currentVC)(vc)(.appear))
         
-        currentVC.willMove(toParentViewController: nil)
-        addChildViewController(vc)
+        currentVC.willMove(toParent: nil)
+        addChild(vc)
         currentVC.dismiss(animated: false, completion: nil)
         
         self.transition(from: self.currentVC, to: vc, duration: 0.5, options: [], animations: {
@@ -297,7 +297,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
     private func purgeStack() {
         self.vcStack.forEach({(vc) in
             vc.view.removeFromSuperview()
-            vc.removeFromParentViewController()
+            vc.removeFromParent()
         })
         self.vcStack.removeAll()
     }
@@ -307,7 +307,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
     /// - Parameter vc: vc
     private func add(vc: UIViewController) {
         view.addSubview(vc.view)
-        vc.didMove(toParentViewController: self)
+        vc.didMove(toParent: self)
         
     }
     
@@ -322,7 +322,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
                 .map({$0.element})
         }
         
-        vc.removeFromParentViewController()
+        vc.removeFromParent()
         vc.view.removeFromSuperview()
     }
     
@@ -331,7 +331,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
     /// - Parameter vc: vc
     private func addToStack(vc: UIViewController) {
         if !vcStack.contains(vc) {
-            addChildViewController(vc)
+            addChild(vc)
             vcStack.append(vc)
             add(vc: vc)
         }

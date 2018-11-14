@@ -15,14 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let container = ALViewControllerContainer(initialVC: UIViewController())
     let defaultProviderFactory = DefaultAnimationProviderFactory()
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window?.rootViewController = container
         window?.makeKeyAndVisible()
         
         let proportion = SizeProportion(width:1, height: 0.8)
         
         var slidUpPopover = defaultProviderFactory.provider(for: .slideRight(size: proportion),
-                                                            dimmingViewType: .defaultBlur)
+                                                            dimmingViewType: .defaultBlur(.light))
         
         
         slidUpPopover.dimmingTapHandler = {[weak self] in
