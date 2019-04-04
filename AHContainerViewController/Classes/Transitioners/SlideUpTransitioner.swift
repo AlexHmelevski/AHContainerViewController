@@ -25,20 +25,22 @@ final class SlideUpTransitioner: AnimationProvider {
         let width = vcSize.width * wMultiplier
         let height = vcSize.height * hMultiplier
         let center = context.transitionVC.view.center
-        let appearFrame = CGRect(x: 0, y: 0, width: width,height: height)
+        let appearFrame = CGRect(x: 0,
+                                 y: vcSize.height,
+                                 width: width,
+                                 height: height)
         
         switch context.presentation {
         case .appear:
             context.toVC.view.frame = appearFrame
-            context.toVC.view.center = CGPoint(x: center.x, y: center.y + height)
         case .dismiss: break
         }
-        
         
         let animation = {
             switch context.presentation {
             case .appear:
-                context.toVC.view.frame.origin = CGPoint(x: context.transitionVC.view.frame.origin.x, y: vcSize.height - height)
+                context.toVC.view.frame.origin = CGPoint(x: context.transitionVC.view.frame.origin.x,
+                                                         y: vcSize.height - height)
             case .dismiss:
                 context.fromVC.view.center = CGPoint(x: center.x, y: center.y - height)
             }
