@@ -258,7 +258,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
     }
     
     private func getIndex(of vc: UIViewController) -> Int? {
-        return vcStack.index(of: vc) ?? -1
+        return vcStack.firstIndex(of: vc) ?? -1
     }
     
     private func sliceVCStack(to index: Int?) -> [UIViewController] {
@@ -316,7 +316,7 @@ open class ALViewControllerContainer: UIViewController,VCContainer {
     ///
     /// - Parameter vc: vc
     private func remove(vc: UIViewController) {
-        vcStack.index(of: vc).do { (idx) in
+        vcStack.firstIndex(of: vc).do { (idx) in
             self.vcStack = self.vcStack.enumerated()
                 .filter({ $0.offset != idx })
                 .map({$0.element})
