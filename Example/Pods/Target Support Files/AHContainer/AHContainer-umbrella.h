@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double AHContainerViewControllerVersionNumber;
-FOUNDATION_EXPORT const unsigned char AHContainerViewControllerVersionString[];
+FOUNDATION_EXPORT double AHContainerVersionNumber;
+FOUNDATION_EXPORT const unsigned char AHContainerVersionString[];
 

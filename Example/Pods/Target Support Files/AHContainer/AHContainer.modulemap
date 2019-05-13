@@ -1,0 +1,6 @@
+framework module AHContainer {
+  umbrella header "AHContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
