@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## AHContainerViewController
+## AHContainer
 
 Copyright (c) 2017 AlexHmelevskiAG <alexei.hmelevski@gmail.com>
 

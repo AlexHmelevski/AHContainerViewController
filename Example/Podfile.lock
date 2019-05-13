@@ -1,19 +1,23 @@
 PODS:
-  - AHContainerViewController (0.1.0):
+  - AHContainer (0.2.1):
     - ALEither
-  - ALEither (0.1.4)
+  - ALEither (0.1.6)
 
 DEPENDENCIES:
-  - AHContainerViewController (from `../`)
+  - AHContainer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ALEither
 
 EXTERNAL SOURCES:
-  AHContainerViewController:
+  AHContainer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AHContainerViewController: d4497771538b49caaa14c882ca13e3c14a59139d
-  ALEither: 790e8f1dda897bfcb56e547e5db86c4eb25da87b
+  AHContainer: 2990d475d912cb709fc4c15c52d72c96f5dde71c
+  ALEither: f9a44e33ec55df529b8202ae7683df126c6d3329
 
-PODFILE CHECKSUM: 8fbfbfbc73fb310912775d72a21e1850a93d84f2
+PODFILE CHECKSUM: 837d44bd806b730d8c50578d68870f37a58ef343
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.6.1
