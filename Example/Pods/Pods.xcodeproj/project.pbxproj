@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		10B363869DB9A5FFEB79B25AB261E7C4 /* Pods-AHContainerViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F497F0A05BEF8F057FB0426A668C0D /* Pods-AHContainerViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		232684EF9ECD6D7D745C2869A82FD67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67187D972B438C9D50E2770DF98BC96F /* Foundation.framework */; };
+		29EAE1ACE8D07F036CC39AAAAF61B527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9467EABDB9FC1C4145B760B82A0AE926 /* Foundation.framework */; };
 		2FE13A19510D9FCDCA9A8DB8C5D364DA /* SlideUpTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5078216921E4022FB79ED1133651E26 /* SlideUpTransitioner.swift */; };
-		395E94540A01C4A4D26089B79DE67083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67187D972B438C9D50E2770DF98BC96F /* Foundation.framework */; };
 		3E545D529D00DCFC65455D1E12BA32E4 /* SlideRightTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0385A342EA7AE786B9924F349C921D55 /* SlideRightTransitioner.swift */; };
 		45917E4763B6249892AF9D2AD8445B33 /* ALEither-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964497BF3378E5E53B3CE43041C27AD5 /* ALEither-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4875F5797102A008B8B62F2EC3918551 /* Pods-AHContainerViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE73CB98C8437508A32894099DA7F38F /* Pods-AHContainerViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A17B71EC83BBEDBB46581FD6E489CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67187D972B438C9D50E2770DF98BC96F /* Foundation.framework */; };
+		4C69E19092F68859F924CA12DE3F39FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9467EABDB9FC1C4145B760B82A0AE926 /* Foundation.framework */; };
+		6C4FEF197843D837E870492D001A2D2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9467EABDB9FC1C4145B760B82A0AE926 /* Foundation.framework */; };
 		782F2EB89FE7D95EFF4A71733A361144 /* Pods-AHContainerViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DCDE147A925AF5215DAC79CE5A0DCC /* Pods-AHContainerViewController_Example-dummy.m */; };
 		7BBA68FB7D2F0D11D3C8BD550D7AE17C /* AHContainer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DD5AC414E02A65BC702F4F0149B897 /* AHContainer-dummy.m */; };
 		7E83D62A841B2FF0B93E9389D8463C03 /* DimmingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62455D20F8B682C55C4735E1FE32EA /* DimmingViewModel.swift */; };
 		809111AB5A896FA203EB28D5971D5443 /* PopoverSlideUpTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6AC0C34A909D3E5D11BF3370790C34 /* PopoverSlideUpTransitioner.swift */; };
 		8226545CC0E034793583CBD8198AE7E0 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A221A277DF5D5936948592983B957 /* AnimationFactory.swift */; };
+		86DFC54FAA5B9AD6AAEF3E38227C77F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9467EABDB9FC1C4145B760B82A0AE926 /* Foundation.framework */; };
 		87612E542B4EE19513D2886F64584114 /* ALEither-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD5E6D3090BDF1DC708CD34F7A5D62 /* ALEither-dummy.m */; };
 		87A731B677300D4B19971C704A5D67FB /* Pods-AHContainerViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 185405EF6DDADE1567D1A5E1BB9D16F0 /* Pods-AHContainerViewController_Tests-dummy.m */; };
 		8991898B974A4BE2668D5C602D776F45 /* CrossDissolveTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458A33CC0143A91F8D908BF09C335117 /* CrossDissolveTransitioner.swift */; };
@@ -34,7 +35,6 @@
 		EAA2AAD0DD17A14E6965E27600618E28 /* ALEither.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CB925BDB12C1B7799FFFC0A86DF2A /* ALEither.swift */; };
 		EAF9906F696957DE5BBBFD95140D346D /* AHContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F474497452CDDC63F8DDFF1F60052B50 /* AHContainerViewController.swift */; };
 		F21FC47DE321E9B2284855DC8DC7396F /* ITransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7099779EC33AD0F17E94FD70D67003 /* ITransitioner.swift */; };
-		FD096947BAAADE5041C7524D77263768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67187D972B438C9D50E2770DF98BC96F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +88,6 @@
 		492BC0475DAB3729B78D8E4BF3176619 /* Pods-AHContainerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHContainerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59F497F0A05BEF8F057FB0426A668C0D /* Pods-AHContainerViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHContainerViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		64A4A0E65FEE7D5F52075AC505008C24 /* ALEither-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALEither-Info.plist"; sourceTree = "<group>"; };
-		67187D972B438C9D50E2770DF98BC96F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		743CB925BDB12C1B7799FFFC0A86DF2A /* ALEither.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALEither.swift; path = ALEither/Classes/ALEither.swift; sourceTree = "<group>"; };
 		77DCDE147A925AF5215DAC79CE5A0DCC /* Pods-AHContainerViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHContainerViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		783FF64675979A7932772F7323C7AC8B /* Pods-AHContainerViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHContainerViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -99,6 +98,7 @@
 		8AE14AC30EC01737C7352737381E6F01 /* AHContainer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AHContainer-Info.plist"; sourceTree = "<group>"; };
 		9045D74908BF47AC01B706A0556FB144 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		92A58295CCEDA3883CE179A8C3224F1B /* SlideDownTransitioner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideDownTransitioner.swift; sourceTree = "<group>"; };
+		9467EABDB9FC1C4145B760B82A0AE926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		964497BF3378E5E53B3CE43041C27AD5 /* ALEither-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALEither-umbrella.h"; sourceTree = "<group>"; };
 		97532B30BA9455B13934AD5CFE5E4C01 /* AHContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHContainer.framework; path = AHContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B02159C89F2B4AD64AE365D23667A44 /* Pods-AHContainerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHContainerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00F4E53E639F0433AE127B9EC921819 /* ALEither.framework in Frameworks */,
-				395E94540A01C4A4D26089B79DE67083 /* Foundation.framework in Frameworks */,
+				86DFC54FAA5B9AD6AAEF3E38227C77F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232684EF9ECD6D7D745C2869A82FD67C /* Foundation.framework in Frameworks */,
+				4C69E19092F68859F924CA12DE3F39FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A17B71EC83BBEDBB46581FD6E489CC6 /* Foundation.framework in Frameworks */,
+				29EAE1ACE8D07F036CC39AAAAF61B527 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD096947BAAADE5041C7524D77263768 /* Foundation.framework in Frameworks */,
+				6C4FEF197843D837E870492D001A2D2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +176,14 @@
 			);
 			name = AHContainer;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		495FB8FF25B2D1C718740A20127B95F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9467EABDB9FC1C4145B760B82A0AE926 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		5032018DD9048EB4E64120FEE3DCF1A6 /* Support Files */ = {
@@ -271,14 +279,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D183A2C77AB457D6B443CBE2C075FED3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				67187D972B438C9D50E2770DF98BC96F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		D33F72F7168535BC6340FC830A3136EE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,7 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				F9BB5FCA62DDEC16491D7D140F339CE9 /* ALEither.framework */,
-				D183A2C77AB457D6B443CBE2C075FED3 /* iOS */,
+				495FB8FF25B2D1C718740A20127B95F3 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -479,12 +479,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -611,74 +611,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12B7A22ABFC64E6DBF49FAA4B1E14981 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B24DF24754B4DBDD8ACFC01BE667921 /* Pods-AHContainerViewController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1643D2C1F5485A0739D97B7E1A717B60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09164809408908FC15616159D9F1C4C7 /* AHContainer.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AHContainer/AHContainer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AHContainer/AHContainer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AHContainer/AHContainer.modulemap";
-				PRODUCT_MODULE_NAME = AHContainer;
-				PRODUCT_NAME = AHContainer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -726,19 +659,223 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+		43877ADA6DCA9FBB8BCA82D2BB6E2AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECD64325259CE1D2DDF87E8DFA396D6 /* ALEither.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALEither/ALEither-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALEither/ALEither-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALEither/ALEither.modulemap";
+				PRODUCT_MODULE_NAME = ALEither;
+				PRODUCT_NAME = ALEither;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		493332C4E312CE3B0CDBCC237261364D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09164809408908FC15616159D9F1C4C7 /* AHContainer.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AHContainer/AHContainer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHContainer/AHContainer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHContainer/AHContainer.modulemap";
+				PRODUCT_MODULE_NAME = AHContainer;
+				PRODUCT_NAME = AHContainer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B9F1F4785A6B2C4B68E39C063E1B011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492BC0475DAB3729B78D8E4BF3176619 /* Pods-AHContainerViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		771749F16C262339F8D912D0E039FECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B02159C89F2B4AD64AE365D23667A44 /* Pods-AHContainerViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB35E6734D2F3C0F4E4A8601AC4375BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8090ABB4231D5A2EA678548A9FB6A8 /* Pods-AHContainerViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBFB3CE223BFEC8D39D55B791F32A1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECD64325259CE1D2DDF87E8DFA396D6 /* ALEither.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALEither/ALEither-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALEither/ALEither-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALEither/ALEither.modulemap";
+				PRODUCT_MODULE_NAME = ALEither;
+				PRODUCT_NAME = ALEither;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -789,7 +926,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -797,15 +934,52 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6832A9517BD77F363D2472532A3E29BE /* Release */ = {
+		E4C8116A913710FFFEE6D28F07573616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B24DF24754B4DBDD8ACFC01BE667921 /* Pods-AHContainerViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F073FCB17BE071A76CC840946B66A1BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09164809408908FC15616159D9F1C4C7 /* AHContainer.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -819,177 +993,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AHContainer/AHContainer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AHContainer/AHContainer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AHContainer/AHContainer.modulemap";
 				PRODUCT_MODULE_NAME = AHContainer;
 				PRODUCT_NAME = AHContainer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		83472766B164796B367FD985E5CC000C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 492BC0475DAB3729B78D8E4BF3176619 /* Pods-AHContainerViewController_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F56EA9B918F4627CA7E4007C3C8045A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B02159C89F2B4AD64AE365D23667A44 /* Pods-AHContainerViewController_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Example/Pods-AHContainerViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A3FC51A8D9E60358DDB67A6461DC0746 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C8090ABB4231D5A2EA678548A9FB6A8 /* Pods-AHContainerViewController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AHContainerViewController_Tests/Pods-AHContainerViewController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ABD5CD7CB0CEA910D6BB8694E4DA2E38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECD64325259CE1D2DDF87E8DFA396D6 /* ALEither.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ALEither/ALEither-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALEither/ALEither-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALEither/ALEither.modulemap";
-				PRODUCT_MODULE_NAME = ALEither;
-				PRODUCT_NAME = ALEither;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B75E861A8334DB3F2006A099AB53B4BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECD64325259CE1D2DDF87E8DFA396D6 /* ALEither.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ALEither/ALEither-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALEither/ALEither-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ALEither/ALEither.modulemap";
-				PRODUCT_MODULE_NAME = ALEither;
-				PRODUCT_NAME = ALEither;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1007,8 +1015,8 @@
 		46CFCF1F750BE358D249111E2DB6919A /* Build configuration list for PBXNativeTarget "Pods-AHContainerViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83472766B164796B367FD985E5CC000C /* Debug */,
-				8F56EA9B918F4627CA7E4007C3C8045A /* Release */,
+				5B9F1F4785A6B2C4B68E39C063E1B011 /* Debug */,
+				771749F16C262339F8D912D0E039FECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1016,8 +1024,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
-				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1025,8 +1033,8 @@
 		625770E7D52FCD7870135524FAF857F4 /* Build configuration list for PBXNativeTarget "AHContainer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1643D2C1F5485A0739D97B7E1A717B60 /* Debug */,
-				6832A9517BD77F363D2472532A3E29BE /* Release */,
+				493332C4E312CE3B0CDBCC237261364D /* Debug */,
+				F073FCB17BE071A76CC840946B66A1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1034,8 +1042,8 @@
 		8EE08EFB0AAFCE59CF228A633A01A491 /* Build configuration list for PBXNativeTarget "ALEither" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABD5CD7CB0CEA910D6BB8694E4DA2E38 /* Debug */,
-				B75E861A8334DB3F2006A099AB53B4BE /* Release */,
+				43877ADA6DCA9FBB8BCA82D2BB6E2AF1 /* Debug */,
+				CBFB3CE223BFEC8D39D55B791F32A1BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1043,8 +1051,8 @@
 		D4889A1E856CACC47DD405AC68DD31A5 /* Build configuration list for PBXNativeTarget "Pods-AHContainerViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3FC51A8D9E60358DDB67A6461DC0746 /* Debug */,
-				12B7A22ABFC64E6DBF49FAA4B1E14981 /* Release */,
+				CB35E6734D2F3C0F4E4A8601AC4375BA /* Debug */,
+				E4C8116A913710FFFEE6D28F07573616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
