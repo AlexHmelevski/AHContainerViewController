@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import AHContainerViewController
+@testable import AHContainer
 
 extension XCTestCase {
     func fulfill(exp: [XCTestExpectation], in interval: DispatchTimeInterval) {

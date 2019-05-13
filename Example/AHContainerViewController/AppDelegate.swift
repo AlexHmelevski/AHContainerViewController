@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AHContainerViewController
+import AHContainer
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

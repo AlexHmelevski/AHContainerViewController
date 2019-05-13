@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import  AHContainerViewController
+import AHContainer
 
 class ViewController: UIViewController {
     let container = ALViewControllerContainer(initialVC: UIViewController())
